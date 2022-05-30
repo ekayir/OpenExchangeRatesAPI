@@ -1,0 +1,45 @@
+﻿@model OpenExchangeRatesAPI.Models.CurrencyViewModel
+@{
+    ViewData["Title"] = "Live Currencies";
+
+}
+<p style="color:red">Note that : Base currency is USD.</p>
+<table id="currencyDatatable" class="table table-striped table-bordered nowrap" style="width:100%">
+    <thead>
+        <tr>
+            <th>Currency</th>
+            <th>Value</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var currency in Model.Currencies)
+        {
+            <tr>
+                <td>@currency.Currency</td>
+                <td>@currency.ExchangeValue</td>
+            </tr>
+        }
+    </tbody>
+    <tfoot>
+        <tr>
+            <th>Currency</th>
+            <th>Value</th>
+        </tr>
+    </tfoot>
+</table>
+<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+
+@section Scripts {
+
+    <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#currencyDatatable').DataTable();
+        });
+    </script>
+
+}
+

@@ -1,0 +1,155 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "OpenExchangeRatesAPI.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "bin/placeholder/OpenExchangeRatesAPI.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OpenExchangeRatesAPI.Data.dll": {}
+        }
+      },
+      "OpenExchangeRatesAPI.Integration/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "OpenExchangeRatesAPI.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OpenExchangeRatesAPI.Integration.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OpenExchangeRatesAPI.Integration.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Newtonsoft.Json/13.0.1": {
+      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "OpenExchangeRatesAPI.Data/1.0.0": {
+      "type": "project",
+      "path": "../OpenExchangeRatesAPI.Data/OpenExchangeRatesAPI.Data.csproj",
+      "msbuildProject": "../OpenExchangeRatesAPI.Data/OpenExchangeRatesAPI.Data.csproj"
+    },
+    "OpenExchangeRatesAPI.Integration/1.0.0": {
+      "type": "project",
+      "path": "../OpenExchangeRatesAPI.Integration/OpenExchangeRatesAPI.Integration.csproj",
+      "msbuildProject": "../OpenExchangeRatesAPI.Integration/OpenExchangeRatesAPI.Integration.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "OpenExchangeRatesAPI.Data >= 1.0.0",
+      "OpenExchangeRatesAPI.Integration >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ekbor\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\ekbor\\source\\repos\\OpenExchangeRatesAPI\\OpenExchangeRatesAPI.Service\\OpenExchangeRatesAPI.Service.csproj",
+      "projectName": "OpenExchangeRatesAPI.Service",
+      "projectPath": "C:\\Users\\ekbor\\source\\repos\\OpenExchangeRatesAPI\\OpenExchangeRatesAPI.Service\\OpenExchangeRatesAPI.Service.csproj",
+      "packagesPath": "C:\\Users\\ekbor\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ekbor\\source\\repos\\OpenExchangeRatesAPI\\OpenExchangeRatesAPI.Service\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\ekbor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Users\\ekbor\\source\\repos\\OpenExchangeRatesAPI\\OpenExchangeRatesAPI.Data\\OpenExchangeRatesAPI.Data.csproj": {
+              "projectPath": "C:\\Users\\ekbor\\source\\repos\\OpenExchangeRatesAPI\\OpenExchangeRatesAPI.Data\\OpenExchangeRatesAPI.Data.csproj"
+            },
+            "C:\\Users\\ekbor\\source\\repos\\OpenExchangeRatesAPI\\OpenExchangeRatesAPI.Integration\\OpenExchangeRatesAPI.Integration.csproj": {
+              "projectPath": "C:\\Users\\ekbor\\source\\repos\\OpenExchangeRatesAPI\\OpenExchangeRatesAPI.Integration\\OpenExchangeRatesAPI.Integration.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

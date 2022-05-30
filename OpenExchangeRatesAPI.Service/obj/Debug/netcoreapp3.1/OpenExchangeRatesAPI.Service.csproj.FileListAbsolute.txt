@@ -1,0 +1,14 @@
+C:\Users\ekbor\source\repos\OpenExchangeRatesAPI\OpenExchangeRatesAPI.Service\bin\Debug\netcoreapp3.1\OpenExchangeRatesAPI.Service.deps.json
+C:\Users\ekbor\source\repos\OpenExchangeRatesAPI\OpenExchangeRatesAPI.Service\bin\Debug\netcoreapp3.1\OpenExchangeRatesAPI.Service.dll
+C:\Users\ekbor\source\repos\OpenExchangeRatesAPI\OpenExchangeRatesAPI.Service\bin\Debug\netcoreapp3.1\OpenExchangeRatesAPI.Service.pdb
+C:\Users\ekbor\source\repos\OpenExchangeRatesAPI\OpenExchangeRatesAPI.Service\bin\Debug\netcoreapp3.1\OpenExchangeRatesAPI.Data.dll
+C:\Users\ekbor\source\repos\OpenExchangeRatesAPI\OpenExchangeRatesAPI.Service\bin\Debug\netcoreapp3.1\OpenExchangeRatesAPI.Integration.dll
+C:\Users\ekbor\source\repos\OpenExchangeRatesAPI\OpenExchangeRatesAPI.Service\bin\Debug\netcoreapp3.1\OpenExchangeRatesAPI.Data.pdb
+C:\Users\ekbor\source\repos\OpenExchangeRatesAPI\OpenExchangeRatesAPI.Service\bin\Debug\netcoreapp3.1\OpenExchangeRatesAPI.Integration.pdb
+C:\Users\ekbor\source\repos\OpenExchangeRatesAPI\OpenExchangeRatesAPI.Service\obj\Debug\netcoreapp3.1\OpenExchangeRatesAPI.Service.csprojAssemblyReference.cache
+C:\Users\ekbor\source\repos\OpenExchangeRatesAPI\OpenExchangeRatesAPI.Service\obj\Debug\netcoreapp3.1\OpenExchangeRatesAPI.Service.AssemblyInfoInputs.cache
+C:\Users\ekbor\source\repos\OpenExchangeRatesAPI\OpenExchangeRatesAPI.Service\obj\Debug\netcoreapp3.1\OpenExchangeRatesAPI.Service.AssemblyInfo.cs
+C:\Users\ekbor\source\repos\OpenExchangeRatesAPI\OpenExchangeRatesAPI.Service\obj\Debug\netcoreapp3.1\OpenExchangeRatesAPI.Service.csproj.CoreCompileInputs.cache
+C:\Users\ekbor\source\repos\OpenExchangeRatesAPI\OpenExchangeRatesAPI.Service\obj\Debug\netcoreapp3.1\OpenExchangeRatesAPI.Service.csproj.CopyComplete
+C:\Users\ekbor\source\repos\OpenExchangeRatesAPI\OpenExchangeRatesAPI.Service\obj\Debug\netcoreapp3.1\OpenExchangeRatesAPI.Service.dll
+C:\Users\ekbor\source\repos\OpenExchangeRatesAPI\OpenExchangeRatesAPI.Service\obj\Debug\netcoreapp3.1\OpenExchangeRatesAPI.Service.pdb

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Vn4CYbDDnjo7eZ8GY7QYj+bLORm7P/OwHTH1xVzCaXENTfdxZGp7xTPUQkIejanuziOMnUUXWLanEvYI8ZnSgw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ekbor\\source\\repos\\OpenExchangeRatesAPI\\OpenExchangeRatesAPI.Integration\\OpenExchangeRatesAPI.Integration.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ekbor\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
